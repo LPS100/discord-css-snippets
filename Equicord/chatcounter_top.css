@@ -1,7 +1,7 @@
 /*------------------------CHARACTER COUNTER EDIT------------------------*/
 /*+++++ ONLY COMPATIBLE WITH EQUICORD'S CHARACTER COUNTER PLUGIN! ++++++*/
 
-div.vc-char-counter {
+.vc-char-counter {
   position: relative !important;
   z-index: 2000 !important;
   bottom: 0 !important;
