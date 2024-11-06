@@ -1,0 +1,24 @@
+/*------------------------CHARACTER COUNTER EDIT------------------------*/
+/*+++++ ONLY COMPATIBLE WITH EQUICORD'S CHARACTER COUNTER PLUGIN! ++++++*/
+
+div.vc-char-counter {
+  position: relative !important;
+  z-index: 2000 !important;
+  bottom: 0 !important;
+  top: 0 !important;
+  opacity: 1 !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  background-color: transparent !important;
+  color: var(--primary-330) !important;
+}
+
+/* Sometimes, the Counter won't load. This removes the excessive spacing IF it's present. */
+div[class^="channelTextArea_"]:has(div[class^="vc-char-counter"]) {
+  margin-bottom: 0 !important;
+}
+
+/* Keeps the x characters left above the counter. */
+div[class^="characterCount_"] {
+  bottom: 30px !important;
+}
